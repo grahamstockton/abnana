@@ -6,24 +6,14 @@ version = 4
 name = "abnana"
 version = "0.1.0"
 dependencies = [
- "abnana-macros",
  "anyhow",
  "axum",
  "lazy_static",
- "proc-macro2",
  "prometheus-client",
  "serde",
  "serde_json",
  "sqlx",
  "tokio",
-]
-
-[[package]]
-name = "abnana-macros"
-version = "0.1.0"
-dependencies = [
- "quote",
- "syn",
 ]
 
 [[package]]
